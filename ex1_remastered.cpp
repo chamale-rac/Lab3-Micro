@@ -13,6 +13,7 @@
 * Description: Basic program that multiplies prime numbers given an interval (Using threads).
 *------------------------------------------
 */
+
 #include <iostream>
 #include <pthread.h>
 #include <bits/stdc++.h>
