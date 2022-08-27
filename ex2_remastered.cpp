@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
 
     pthread_t threads[nSERIES];
     
-	void *exit_value;
+    void *exit_value;
     double CONVERGENCE = 0;
 
     for (long i = 0; i < nSERIES; i++) {
