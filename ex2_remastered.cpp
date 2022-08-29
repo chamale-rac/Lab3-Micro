@@ -27,7 +27,7 @@ string textIntro = "Calculate the convergence of Σn 3/2^n\nn: ";
 void *CALC(void* arg){	
 	long input;
 	input = (long) arg;
-	double* output = (double*) malloc(sizeof(double));
+	double* output = new double; // This line was edited after the video recording. ["new" instead "malloc"]
 	*output = 3/(pow(2,input));
 	return output;
 }
@@ -62,3 +62,4 @@ int main(int argc, char *argv[]) {
 // https://www.symbolab.com/solver/series-calculator/%5Csum_%7Bn%3D3%7D%5E%7B%5Cinfty%7D%20%5Cfrac%7B3%7D%7B2%5E%7Bn%7D%7D?or=input
 // https://www.w3schools.com/cpp/cpp_strings.asp
 // https://stackoverflow.com/questions/19387647/c-invalid-cast-from-type-void-to-type-double
+// https://www.emathhelp.net/calculators/calculus-2/series-calculator/?f=3%2F%282%5En%29&var=&a=0&b=inf
