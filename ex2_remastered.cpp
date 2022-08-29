@@ -9,6 +9,7 @@
 *
 * by Samuel Chamalé
 * viernes, 26 de agosto del 2022
+* Mmod.: lunes, 29 de agosto del 2022 (Samuel Chamalé)
 *------------------------------------------
 * Description: Basic program that calculate the convergence of Σn→∞ 3/2^n;
 *------------------------------------------
