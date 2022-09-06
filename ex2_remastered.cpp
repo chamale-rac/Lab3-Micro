@@ -34,12 +34,11 @@ void *CALC(void* arg){
 }
 
 int main(int argc, char *argv[]) {
-    int nSERIES;
-    
-    
+    int nSERIES;    
+	
     std::cout << textIntro; 
     cin >> nSERIES;
-
+	
     pthread_t threads[nSERIES];
     
     void *exit_value;
@@ -53,7 +52,6 @@ int main(int argc, char *argv[]) {
     }
     
     CONVERGENCE = 6 - CONVERGENCE;
-
     std::cout << "Result: " << CONVERGENCE << std::endl;
     return 0;
 }
